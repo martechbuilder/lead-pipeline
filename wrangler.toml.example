@@ -1,0 +1,13 @@
+name = "lead-pipeline"
+compatibility_date = "2024-01-01"
+
+# Find your account_id at: https://dash.cloudflare.com → right sidebar
+account_id = "your-cloudflare-account-id"
+
+# Secrets (set via `wrangler secret put`, not here):
+#   ESP_PROVIDER     e.g. brevo
+#   ESP_API_KEY      your ESP API key
+#   ALLOWED_ORIGINS  https://your-domain.com
+
+[env.production]
+name = "lead-pipeline-production"
