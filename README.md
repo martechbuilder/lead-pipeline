@@ -1,4 +1,4 @@
-[![CI](https://github.com/philip95macdonald-cmd/lead-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/philip95macdonald-cmd/lead-pipeline/actions)
+[![CI](https://github.com/martechbuilder/lead-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/martechbuilder/lead-pipeline/actions)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 # lead-pipeline
@@ -24,7 +24,7 @@ Brevo is wired up. Swap to any other ESP by changing one env var.
 
 **1. Clone and configure**
 ```bash
-git clone https://github.com/philip95macdonald-cmd/lead-pipeline
+git clone https://github.com/martechbuilder/lead-pipeline
 cd lead-pipeline
 cp wrangler.toml.example wrangler.toml
 # Edit wrangler.toml: set your account_id
